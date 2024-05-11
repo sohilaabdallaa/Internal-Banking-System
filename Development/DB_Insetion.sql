@@ -1,5 +1,5 @@
 -- Insert data into the user table for multiple users
-INSERT INTO clientt (NationalID, FullName, Email, Password, Username)
+INSERT INTO dbo.userr (NationalID, FullName, Email, Password, Username)
 VALUES
 ('12345678901234', 'John Doe', 'john@example.com', 'password123', 'johndoe'),
 ('23456789012345', 'Jane Smith', 'jane@example.com', 'password456', 'janesmith'),
